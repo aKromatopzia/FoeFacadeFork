@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtOEnemySkinsForPlayerMod", "AtOEnemySkinsForPlayerMod.csproj", "{A035D928-33DB-41E4-B011-83980FDB03EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A035D928-33DB-41E4-B011-83980FDB03EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A035D928-33DB-41E4-B011-83980FDB03EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A035D928-33DB-41E4-B011-83980FDB03EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A035D928-33DB-41E4-B011-83980FDB03EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4ECBF7B-3B58-4EC9-82DE-2D4AEB6F9482}
+	EndGlobalSection
+EndGlobal
