@@ -16,6 +16,7 @@ namespace AtOEnemySkinsForPlayerMod
     [BepInDependency(AtOSkinExtender.Plugin.modGuid)]
     public class Plugin : BaseUnityPlugin
     {
+        public const string identifier = "Foe Facade";
         public static List<string> skinsToFlip = new List<string>();
         public static BepInEx.Logging.ManualLogSource _logger;
 
@@ -121,7 +122,7 @@ namespace AtOEnemySkinsForPlayerMod
                 //Debug.Log($"====NPC {npcSource.Key}");
                 foreach (var subclass in Globals.Instance._SubClassSource)
                 {
-                    //they're not normally selectable.
+                    //they're not normally selectable so reducing memory burden a bit
                     //if they're able to then ill remove this clause
                     if (subclass.Key.StartsWith("young"))
                         continue;
@@ -135,9 +136,7 @@ namespace AtOEnemySkinsForPlayerMod
                         npc.SpriteSpeed,
                         npc.SpritePortrait,
                         npc.GameObjectAnimated);
-                    if (skinData == null)
-                        continue;
-                    skinData.SkinOrder = 7;
+                    AtOSkinExtender.Assets.AddSkinDataToPack(skinData, identifier);
                     skinsToFlip.Add(skinData.SkinId);
                 }
             }
