@@ -1,0 +1,11 @@
+{
+  "name": "FoeFacade",
+  "version_number": "0.1.0",
+  "website_url": "https://github.com/DestroyedClone/AtOEnemySkinsForPlayerMod",
+  "description": "Extends skin support and adds scrolling.",
+  "dependencies": [
+    "BepInEx-BepInExPack_AcrossTheObelisk-5.4.21",
+    "HookGenPatcher-HookGenPatcher-1.2.10",
+    "DestroyedClone-SkinExtender-0.1.0"
+  ]
+}
