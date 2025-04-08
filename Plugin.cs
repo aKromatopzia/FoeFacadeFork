@@ -12,11 +12,11 @@ using System.Security.Permissions;
 
 namespace AtOEnemySkinsForPlayerMod
 {
-    [BepInPlugin("com.DestroyedClone.FoeFacade", "Foe Facade", "0.1.0")]
+    [BepInPlugin("com.b612.FoeFacadeU", "Foe Facade Update", "0.0.a")]
     [BepInDependency(AtOSkinExtender.Plugin.modGuid)]
     public class Plugin : BaseUnityPlugin
     {
-        public const string identifier = "Foe Facade";
+        public const string identifier = "Foe Facade Update";
         public static List<string> skinsToFlip = new List<string>();
         public static BepInEx.Logging.ManualLogSource _logger;
 

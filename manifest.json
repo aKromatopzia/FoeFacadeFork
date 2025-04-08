@@ -1,7 +1,7 @@
 {
-  "name": "FoeFacade",
-  "version_number": "0.1.1",
-  "website_url": "https://github.com/DestroyedClone/AtOEnemySkinsForPlayerMod",
+  "name": "FoeFacade Updated",
+  "version_number": "0.0.1",
+  "website_url": "-",
   "description": "Adds enemy appearances as skins for heroes.",
   "dependencies": [
     "BepInEx-BepInExPack_AcrossTheObelisk-5.4.21",
